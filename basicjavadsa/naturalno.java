@@ -3,7 +3,7 @@ package basicjavadsa;
 public class naturalno {
     public static void main(String[] args) {
         int n=10;
-        for(int i=1; i<= 10; i++)
+        for(int i=0; i<=10; i++)
             System.out.println(i);
 
 //        int i=10;
