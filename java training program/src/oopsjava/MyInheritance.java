@@ -1,4 +1,5 @@
 package oopsjava;
+import java.util.Scanner;
 
 public class MyInheritance {
     public static void main(String[] args) {
@@ -9,12 +10,19 @@ public class MyInheritance {
 
 }
 
+
 class inheritance extends calculate{
     void print(){
-        System.out.println(add(8,4));
-        System.out.println(sub(8,4));
-        System.out.println(mul(8,4));
-        System.out.println(div(8,4));
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("Enter the values ");
+        int a=scanner.nextInt();
+        System.out.print("enter 2nd value ");
+        int b=scanner.nextInt();
+
+        System.out.println(add(a,b));
+        System.out.println(sub(a,b));
+        System.out.println(mul(a,b));
+        System.out.println(div(a,b));
     }
 }
 
