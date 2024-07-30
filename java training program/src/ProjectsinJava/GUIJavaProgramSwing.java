@@ -34,6 +34,7 @@ import javax.swing.*;
         frame.add(hieghtField);
         frame.add(wieghtLabel);
         frame.add(wieghtField);
+
         frame.add(bmiButton);
         frame.add(bmiLabel);
 
